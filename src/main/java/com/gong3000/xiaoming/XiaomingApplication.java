@@ -29,6 +29,6 @@ public class XiaomingApplication {
 
     @RequestMapping({"/ping"})
     public String scorePing() {
-        return scoreClient.ping();
+        return "success";
     }
 }
